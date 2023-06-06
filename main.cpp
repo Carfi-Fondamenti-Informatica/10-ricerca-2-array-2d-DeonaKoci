@@ -24,7 +24,6 @@ int main() {
     return 0;
 }*/
 
-#include <iostream>
 #include "lib.h"
 using namespace std;
 
@@ -37,8 +36,8 @@ int main() {
         for(int j=0;j<20;j++) {
             a[j] = ' ';
             lista[i][j] = ' ';
-        
-    }}
+        }
+    }
 
     for(int i=0;i<10;i++){
         cin >> lista[i];
