@@ -49,7 +49,7 @@ int main() {
         cout << "trovato in posizione "<< pos;
     }else{
         cout << "non trovato";
-    }}
+    }
 
     return 0;
 }
