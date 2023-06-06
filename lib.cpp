@@ -9,7 +9,7 @@ bool cerca(char listanome[10][20], int &pos, char a[]){
             }else{
 
                     if(j==19){
-                          pos = (i);
+                          pos = (i)/2;
 
                            return true;
 
