@@ -21,7 +21,7 @@ int main() {
 
     cin >> a;
     if(cerca(lista,pos,a)){
-        cout << pos<< endl;
+        cout << pos;
     }else{
         cout << "non trovato";
     }
