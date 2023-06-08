@@ -1,3 +1,5 @@
+
+/*
 #include <iostream>
 #include "lib.h"
 using namespace std;
@@ -16,20 +18,24 @@ int main() {
 
     for(int i=0;i<10;i++){
         cin >> lista[i];
-        
     }
 
     cin >> a;
     if(cerca(lista,pos,a)){
-        cout  << pos;
+        cout << "trovato in posizione "<< pos;
     }else{
         cout << "non trovato";
     }
 
     return 0;
 }
+ */
 
-/*
+
+
+#include <iostream>
+#include "lib.h"
+
 using namespace std;
 
 int main() {
@@ -37,19 +43,14 @@ int main() {
     init(nomi);
     init(cognomi);
     inserimento(nomi, cognomi);
-
     char nome[15], cognome[15];
-    inserimentonome(nome, 15);
-    inserimentocognome(cognome, 15);
-
+    inserimento(nome, 15);
+    inserimento(cognome, 15);
     int id = ricerca(nomi, cognomi, nome, cognome);
     if (id != -1) {
-        cout << "Trovato in posizione " << id << endl;
+        cout << "trovato in posizione " << id << endl;
+    }else{
+        cout << "non trovato" <<endl;
     }
-    else {
-        cout << "Non trovato" << endl;
-    }
-
     return 0;
-}*/
-
+}
